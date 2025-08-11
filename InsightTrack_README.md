@@ -1,6 +1,6 @@
 # 📊 InsightTrack – Data Analytics Dashboard
 
-**InsightTrack** is a full-stack TypeScript application that lets you upload, explore, and visualize datasets in real time. Designed for both technical and non-technical users, it simplifies data analysis with an intuitive interface, interactive charts, and instant insights — all without the need for complex tools.
+**InsightTrack** is a full-stack application that lets you upload, explore, and visualize datasets in real time. Designed for both technical and non-technical users, it simplifies data analysis with an intuitive interface, interactive charts, and instant insights — all without the need for complex tools.
 
 ---
 
@@ -19,20 +19,15 @@
 
 **Frontend**
 - React + TypeScript  
-- Vite for blazing-fast builds  
-- Wouter for lightweight routing  
-- shadcn/ui + Radix UI for accessible, consistent components  
-- Tailwind CSS for utility-first styling with theming & dark mode  
-- TanStack React Query for server state management  
-- Chart.js for interactive data visualizations  
-- React Hook Form + Zod for form handling and validation  
+- Vite for blazing-fast builds   
+- Tailwind CSS for utility-first styling with theming & dark mode   
+- Chart.js for interactive data visualizations   
 
 **Backend**
 - Node.js + Express.js  
 - TypeScript for end-to-end type safety  
 - Multer for file uploads with size & type validation  
-- Papa Parse for robust CSV parsing  
-- Shared Zod schemas between client & server  
+- Papa Parse for robust CSV parsing   
 - Comprehensive error handling and logging  
 
 **Data & Storage**
@@ -87,7 +82,7 @@ npm install
 Create `.env` in the root:
 ```env
 PORT=5173
-VITE_API_URL=http://localhost:5000
+VITE_API_URL=TYPE_YOUR-API
 DATABASE_URL=postgres://user:password@host:port/db
 SESSION_SECRET=your_secret_here
 ```
